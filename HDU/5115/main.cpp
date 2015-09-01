@@ -38,7 +38,7 @@ int a[maxn], b[maxn];
 int dp[maxn][maxn];
 
 int main() {
-    int T;
+    int T, Kase(0);
     scanf("%d", &T);
     while (T--) {
         for (int i = 0; i < maxn; ++i)
@@ -49,15 +49,17 @@ int main() {
         a[0] = a[n + 1] = 0;
         b[0] = b[n + 1] = 0;
         for (int i = 1; i <= n; ++i) dp[i][i] = a[i] + b[i - 1] + b[i + 1];
-        for (int j = 1; j <= n; ++j) {
-            for (int i = 1; i < j; ++i) {
+        for (int l = 1; l <= n; ++l) {
+            for (int i = 1; i <= n; ++i) {
+                int j = i + l;
+                if (j > n) break;
                 dp[i][j] = min(a[i] + b[i - 1] + b[j + 1] + dp[i + 1][j], a[j] + b[i - 1] + b[j + 1] + dp[i][j - 1]);
                 for (int k = i + 1; k < j; ++k) {
                     dp[i][j] = min(dp[i][j], dp[i][k - 1] + dp[k + 1][j] + a[k] + b[i - 1] + b[j + 1]);
                 }
             }
         }
-        printf("%d\n", dp[1][n]);
+        printf("Case #%d: %d\n", ++Kase, dp[1][n]);
     }
     return 0;
 }
