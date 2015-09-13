@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>4F157455-614C-4A93-9D69-A65130287151</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>11582</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3CFBE67B32736A42B2988D922A7B10D1B5F787EE</key>
 		<string>https://github.com/xuziye0327/acm.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UVA/11582/11582.xcodeproj/project.xcworkspace</string>
+	<string>UVA/11582/11582.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3CFBE67B32736A42B2988D922A7B10D1B5F787EE</key>
