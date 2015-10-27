@@ -1,6 +1,8 @@
 # acm
 各oj存代码用。
 
+个人博客: http://myz119.com/
+
 本来题解写在commit里， 可是不方便看， 又省事全部存到了word里， 可是github不能直接看word文档。。又换成md了。
 
 github的md不支持LaTex， 所以应该把md里的复制到一些md的编辑器里就能看公式了。
