@@ -1,7 +1,7 @@
 # acm
 各oj存代码用。
 
-个人博客: http://myz119.com/
+<a href = "http://xuziye0327.com/">个人博客</a>
 
 本来题解写在commit里， 可是不方便看， 又省事全部存到了word里， 可是github不能直接看word文档。。又换成md了。
 
